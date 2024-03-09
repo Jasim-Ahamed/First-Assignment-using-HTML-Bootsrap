@@ -5,45 +5,46 @@
     </head>
     <body>
         <div class="container mt-2 ms-2">
-            <h6>Add partner profile</h6> 
+            <h6 class="fw-normal lead">Add partner profile</h6> 
         </div>
         <div class="container ms-2 mt-2">
-            <h6>partners are organizations with whom you want to share project information.</h6>
+            <h6 class="fw-normal lead">partners are organizations with whom you want to share project information.</h6>
         </div>
+        <br>
         <form>
             <div class="container mt-2 ms-2">
             <label for="partner name" class="form-label">partner name <span class="text-danger">*</span></label>
-            <input type="text" class="form-control" id="partner name" placeholder="partner company name" name="partner name" required>
+            <input type="text" class="form-control bg-secondary-subtle border-0" id="partner name" placeholder="partner company name" name="partner name" required>
             </div>
             
             <div class="container mt-2 ms-2">
                 <label for="description" class="form-label">description<span class="text-danger">*</span></label>
-                <textarea class="form-control" id="description" rows="6"></textarea>
+                <textarea class="form-control bg-secondary-subtle border-0" id="description" rows="6"></textarea>
                 <small id="smalldescription" class="form-text text-muted">provide max 250 character.</small>
             </div>
 
             <div class="container mt-2 ms-2">
                 <label for="primarycontact" class="form-label">partner primary contact<span class="text-danger">*</span></label>
-                <input type="text" class="form-control" id="primarycontact" placeholder="primary contact" name="primarycontact" required>
+                <input type="text" class="form-control bg-secondary-subtle border-0" id="primarycontact" placeholder="primary contact" name="primarycontact" required>
             </div>
 
             <div class="container mt-2 ms-2">
                 <label for="getemail" class="form-label">email address<span class="text-danger">*</span></label>
-                <input type="email" class="form-control bg-light" id="getemail" placeholder="name@example.com" name="getemail" required>
+                <input type="email" class="form-control bg-secondary-subtle border-0" id="getemail" placeholder="name@example.com" name="getemail" required>
                 <small id="smalldescriptionforemail" class="form-text text-muted">we'll never share your email with anyone else.</small>
             </div>
 
-            <div class="container mt-2 ms-2">
+            <div class=" container mt-2 ms-2">
                 <label for="getphonenumber" class="form-label ">phone number<span class="text-danger">*</span></label>
-                <input type="number" class="form-control" id="getphonenumber" placeholder="91-80-9878888888" name="getphonenumber" required> 
+                <input type="number" class="form-control  bg-secondary-subtle border-0 " id="getphonenumber" placeholder="91-80-9878888888" name="getphonenumber" required> 
             </div>
         </form>
         <div class="container mt-2 ms-2">
             
-            <button type="button" class="btn btn-primary rounded-0">apply</button>
-            <button type="button" class="btn btn-primary rounded-0">save</button>
-            <button type="button" class="btn btn-primary rounded-0">cancel</button>
-            <button type="button" class="btn btn-primary rounded-0">reset</button>
+            <button type="button" class="btn btn-primary rounded-1">apply</button>
+            <button type="button" class="btn btn-primary rounded-1">save</button>
+            <button type="button" class="btn btn-primary rounded-1">cancel</button>
+            <button type="button" class="btn btn-primary rounded-1">reset</button>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
